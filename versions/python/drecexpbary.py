@@ -40,7 +40,11 @@ def drecexpbary(oracle, x0,
         fi = oracle(x)
 
         e_i = np.exp(-nu*fi)
+        
         m = lambda_*m_1 + e_i
+        
+        m_1=m
+
         xhat = (1/m)*(lambda_*m_1*xhat_1 + x*e_i)
         
         solution_found = i >= iterations
