@@ -1,4 +1,4 @@
-def drecexpbary(oracle, x0,
+def drecexpbary(oracle, x0, 
                 nu = 1, sigma = 0.1, 
                 zeta = 0, lambda_ = 1, 
                 iterations = 1000):
