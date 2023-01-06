@@ -1,4 +1,5 @@
 *.m~
 *.eps
 *.pdf
-*.pýc__pycache__/
+*.pýc
+__pycache__/
