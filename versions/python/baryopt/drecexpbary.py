@@ -10,7 +10,7 @@ DEFAULT_ZETA = 0
 DEFAULT_ITERANTION_COUNT = 1000
 
 
-def bary_recursive(
+def drecexpbary(
     oracle,
     x0,
     nu=DEFAULT_NU,
@@ -65,3 +65,4 @@ def bary_recursive(
         i = i + 1
 
     return xhat
+
